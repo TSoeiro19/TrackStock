@@ -1,0 +1,9 @@
+# Pacotes Python. Instalar com:
+#   python -m pip install -r requirements.txt
+
+# backend (servidor e API)
+Flask==3.1.3
+
+# scripts/ (atalho do Windows e ícones)
+pywin32==312
+pillow==12.1.1

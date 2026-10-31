@@ -1,0 +1,20 @@
+# Dados pessoais (ficam só neste PC)
+historico/
+
+# Dependências e frontend compilado (npm install && npm run build)
+node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Ficheiro vazio criado por engano na raiz (o do frontend é o que conta)
+/package-lock.json
+
+# Editor e sistema
+.vscode/
+.claude/
+Thumbs.db
+desktop.ini
