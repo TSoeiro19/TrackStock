@@ -7,7 +7,7 @@ DATA_DIR = ROOT / 'historico'
 DATA_FILE = DATA_DIR / 'transacoes.json'        # transações e watchlist (fonte de verdade)
 BRIEF_DIR = DATA_DIR / 'briefings'               # um briefing por dia (AAAA-MM-DD.md)
 BRIEF_PROMPT = BRIEF_DIR / 'prompt.md'          # prompt do daily briefing
-BRIEF_KEEP_DAYS = 30                            # briefings mais antigos são apagados automaticamente
+BRIEF_KEEP_DAYS = 7                            # briefings mais antigos são apagados automaticamente
 
 DEFAULT_PORT = 8765
 APP_HEADER = 'investimentos'                    # valor do cabeçalho X-App que a app envia
