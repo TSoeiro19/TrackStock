@@ -1,5 +1,8 @@
-# Dados pessoais (ficam só neste PC)
-historico/
+# Dados pessoais (ficam só neste PC); só vai para o repositório a prompt.md default do briefing
+historico/*
+!historico/briefings/
+historico/briefings/*
+!historico/briefings/prompt.md
 
 # Dependências e frontend compilado (npm install && npm run build)
 node_modules/
