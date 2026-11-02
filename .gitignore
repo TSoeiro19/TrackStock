@@ -1,22 +1,17 @@
-# Dados pessoais (ficam só neste PC); só vai para o repositório a prompt.md default do briefing
 historico/*
 !historico/briefings/
 historico/briefings/*
 !historico/briefings/prompt.md
 
-# Dependências e frontend compilado (npm install && npm run build)
 node_modules/
 frontend/dist/
 
-# Python
 __pycache__/
 *.pyc
 .venv/
 
-# Ficheiro vazio criado por engano na raiz (o do frontend é o que conta)
 /package-lock.json
 
-# Editor e sistema
 .vscode/
 .claude/
 Thumbs.db
